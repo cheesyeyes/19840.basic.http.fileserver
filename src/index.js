@@ -62,5 +62,5 @@ server.listen(port, (err) => {
   if (err) {
     return console.log('error ', err)
   }
-  console.log(`Meta server is listening on ${port}`)
+  console.log(`Server is listening on ${port}`)
 })
